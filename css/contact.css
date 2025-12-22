@@ -1,0 +1,104 @@
+/* ===========================
+   Contact Page (Enhanced Layout)
+=========================== */
+
+#contact-details {
+    max-width: 900px;
+    margin: 0 auto 2.5rem auto;
+    background-color: #ffffff;
+    border: 1px solid #c8d6cf;
+    border-radius: var(--card-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+/* Main title */
+#contact-details h2 {
+    font-size: 1.5rem;
+    color: #1c3f27;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+/* Thin accent line under the main title */
+#contact-details h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #245c35;
+    border-radius: 999px;
+    margin: 0.45rem auto 0 auto;
+}
+
+/* Wrapper for inner content */
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;       /* space before left accent line */
+    border-left: 3px solid #d2e6d9;
+}
+
+/* Each "block" = heading + its paragraph */
+.contact-box h3 {
+    font-size: 1.18rem;
+    color: #1f1f1f;
+    margin-top: 0.6rem;
+    margin-bottom: 0;            /* no gap under heading */
+    font-weight: 600;
+}
+
+/* Add separator above all headings except the first */
+.contact-box h3:not(:first-of-type) {
+    padding-top: 0.75rem;
+    margin-top: 0.9rem;
+    border-top: 1px solid #e3ece7;
+}
+
+/* Paragraph directly under each heading */
+.contact-box p {
+    font-size: 1.06rem;
+    color: #2a2a2a;
+    margin-top: 0.1rem;          /* tiny spacing so text doesn’t touch heading */
+    margin-bottom: 0.25rem;
+    line-height: 1.55;
+}
+
+/* Links (emails) */
+.contact-box a {
+    color: #245c35;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+
+    #contact-details {
+        padding: 1.5rem;
+    }
+
+    #contact-details h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-box {
+        padding-left: 0.6rem;
+        border-left-width: 2px;
+    }
+
+    .contact-box p {
+        font-size: 1.02rem;
+    }
+
+    .contact-box h3 {
+        font-size: 1.08rem;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemon Society | Events</title>
+    <link rel="icon" type="image/png" href="resources/logo png.png">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+
+    <!-- NAVBAR (Visible on all pages) -->
+    <header>
+        <div class="header-left">
+            <h1>Lemon Society</h1>
+            <p>Assam, India</p>
+        </div>
+
+        <!-- Hamburger button (visible on small screens) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="navMenu">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="events.html">EVENTS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- EVENTS PAGE WRAPPER -->
+    <section id="events-page">
+
+        <!-- UPCOMING EVENTS SECTION -->
+        <section id="upcoming-events">
+            <h2>UPCOMING EVENTS</h2>
+            <div class="events-list" id="upcomingList">
+                <!-- JS will inject upcoming events here -->
+            </div>
+        </section>
+
+        <!-- PAST EVENTS SECTION -->
+        <section id="past-events">
+            <h2>PAST EVENTS</h2>
+            <div class="events-list" id="pastList">
+                <!-- JS will inject past events here -->
+            </div>
+        </section>
+
+    </section>
+
+    <script src="js/global.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>

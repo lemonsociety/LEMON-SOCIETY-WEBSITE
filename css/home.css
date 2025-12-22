@@ -1,0 +1,181 @@
+/* ===========================
+   Home Page – Gallery Section
+=========================== */
+
+#gallery {
+    text-align: center;
+    padding-top: 1.8rem;   /* a little more breathing room */
+}
+
+#gallery h2 {
+    margin-bottom: 0.8rem;
+    font-size: 1.7rem;      /* slightly larger heading */
+    color: #245c35;         /* deeper green for contrast */
+}
+
+.gallery-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+    margin: 0 auto 1.1rem auto;
+    max-width: 700px;
+}
+
+.gallery-box button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--accent);
+    color: #ffffff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.gallery-box button:hover {
+    background-color: #276749;
+    transform: translateY(-1px);
+}
+
+/* IMAGE AREA: fixed 4:3 box */
+.image-area {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--card-radius);
+    border: none;  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Blurred, stretched background (only when class added) */
+.image-area.has-blur-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;         /* uses same background-image as parent */
+    filter: blur(24px);          /* increased blur strength */
+    transform: scale(1.1);
+    opacity: 0.6;                /* translucent / diffused */
+    z-index: 0;
+}
+
+/* Foreground image: full, no cropping */
+.image-area img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;         /* show full image */
+    border-radius: var(--card-radius);
+}
+
+/* Caption under gallery image */
+#imageCaption {
+    margin-top: 0.65rem;
+    font-size: 1rem;             /* slightly larger */
+    color: #2c2c2c;              /* stronger contrast */
+}
+
+/* Gallery heading with hover underline + color change + lift */
+.gallery-heading-link {
+    text-decoration: none;
+    color: #245c35;            /* deeper green */
+    display: inline-block;
+    position: relative;
+    transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.gallery-heading-link:hover {
+    color: #2f855a;            /* brighter green on hover */
+    transform: translateY(-3px);
+}
+
+.gallery-heading-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    background-color: #2f855a;
+    transition: width 0.25s ease;
+    border-radius: 6px;
+}
+
+.gallery-heading-link:hover::after {
+    width: 100%;
+}
+
+
+/* ===========================
+   Home Page – Assam Lemon Section
+=========================== */
+
+#assam-lemon {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.2fr);
+    gap: 1.7rem;                  /* slightly more spacing */
+    align-items: center;
+}
+
+/* Assam Lemon image – 4:3 aspect ratio */
+.lemon-image {
+    min-height: 230px;
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;          /* plain bg now */
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lemon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;          /* no cropping */
+    border-radius: var(--card-radius);
+}
+
+.assam-content h2 {
+    color: #245c35;               /* same deeper green as about */
+}
+
+/* Assam Lemon text */
+.assam-content p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.9rem;
+    font-size: 1.1rem;           /* slightly larger */
+    color: #2b2b2b;               /* better contrast */
+    line-height: 1.7;
+    text-align: justify;
+
+}
+
+/* Mobile stacking */
+@media (max-width: 720px) {
+    #assam-lemon {
+        grid-template-columns: 1fr;
+    }
+
+    #assam-lemon h2 {
+        text-align: center;
+    }
+}

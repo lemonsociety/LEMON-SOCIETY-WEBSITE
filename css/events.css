@@ -1,0 +1,104 @@
+/* ===========================
+   Events Page – Wrapper
+=========================== */
+
+#events-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ===========================
+   Upcoming & Past Events Sections
+=========================== */
+
+#upcoming-events,
+#past-events {
+    background-color: #ffffff;
+    border-radius: var(--card-radius);
+    border: 1px solid #d7e3de;
+    box-shadow: var(--shadow);
+    margin-bottom: 2.2rem;               /* slightly increased for page spacing */
+    overflow: hidden;
+}
+
+/* Section headers */
+#upcoming-events h2,
+#past-events h2 {
+    padding: 1.45rem 1.8rem;
+    border-bottom: 1px solid #edf2f7;
+    margin-bottom: 0;
+    font-size: 1.85rem;                  /* ↑ matched About Page section titles */
+    letter-spacing: 0.08em;
+    color: #245c35;
+}
+
+/* Container for event cards */
+.events-list {
+    padding: 1.25rem 1.8rem 1.55rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* Single event card */
+.event-card {
+    padding: 1.1rem 0;
+    border-bottom: 1px solid #edf2f7;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.event-card:last-child {
+    border-bottom: none;
+}
+
+/* Hover (desktop only) */
+@media (min-width: 721px) {
+    .event-card:hover {
+        background-color: #f8fffa;
+        transform: translateY(-1px);
+    }
+}
+
+.event-title {
+    font-weight: 650;
+    font-size: 1.22rem;                 /* ↑ increased */
+    margin-bottom: 0.35rem;
+    color: #222;
+}
+
+.event-meta {
+    font-size: 1rem;                    /* ↑ clearer, readable */
+    color: #55616b;
+    margin-bottom: 0.4rem;
+}
+
+.event-desc {
+    font-size: 1.1rem;                  /* ↑ matches paragraph scale */
+    color: #2b2b2b;
+    line-height: 1.75;                  /* ↑ smoother body text */
+}
+
+/* Optional: empty-state text */
+.no-events {
+    font-size: 1.05rem;                 /* ↑ slightly larger */
+    color: var(--muted);
+    padding: 0.5rem 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 720px) {
+    #upcoming-events,
+    #past-events {
+        border-radius: 12px;
+    }
+
+    #upcoming-events h2,
+    #past-events h2 {
+        padding: 1.1rem 1.25rem;
+        font-size: 1.55rem;             /* ↑ slightly bigger */
+    }
+
+    .events-list {
+        padding: 1rem 1.25rem 1.25rem 1.25rem;
+    }
+}
