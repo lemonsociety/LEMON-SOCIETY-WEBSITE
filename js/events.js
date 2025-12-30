@@ -21,7 +21,7 @@ const eventsData = [
         title: "One week internship on 'Lemon Entrepreneurship'",
         date: "2026-02-23",
         location: "Institutional Biotech Hub, Science College, Kokrajhar",
-        description: "IBH, Science College, Kokrajhar along with Lemon Society, Assam, India is going to conduct a one week internship course on 'Lemon Entrepreneurship'."
+        description: "IBH, Science College, Kokrajhar in collaboration with Lemon Society, Assam, India is going to conduct a one week internship course on 'Lemon Entrepreneurship'."
     },
     {
         title: "Second Executive Meeting Held",
@@ -33,7 +33,7 @@ const eventsData = [
         title: "Plantation Drive",
         date: "2026-04-16",
         location: "Gauhati University",
-        description: "Different varieties of citrus, including lemon, will be planted at GU campus in the month of April"
+        description: "Different varieties of Citrus, including lemon, will be planted at GU campus in the month of April."
     },
 
 ];
