@@ -8,16 +8,34 @@ const eventsData = [
     {
         title: "First Public Meeting Held",
         date: "2025-09-02",
-        location: "Google Online Platform",
+        location: "Google Meet Online Platform",
         description: "Developed 'Lemon Scoiety, Assam, India' and constructed the executive body of the society."
     },
     {
         title: "First Executive Meeting Held",
         date: "2025-11-23",
-        location: "Google Online Platform",
+        location: "Google Meet Online Platform",
         description: "Discussed on constitution, website and advisory panel."
     },
-    
+    {
+        title: "One week internship on 'Lemon Entrepreneurship'",
+        date: "2026-02-23",
+        location: "Institutional Biotech Hub, Science College, Kokrajhar",
+        description: "IBH, Science College, Kokrajhar along with Lemon Society, Assam, India is going to conduct a one week internship course on 'Lemon Entrepreneurship'."
+    },
+    {
+        title: "Second Executive Meeting Held",
+        date: "2025-12-30",
+        location: "Google Meet Online Platform",
+        description: "Discussed on draft constitution, full fledged committe and future activities."
+    },
+    {
+        title: "Plantation Drive",
+        date: "2026-04-16",
+        location: "Gauhati University",
+        description: "Different varieties of citrus, including lemon, will be planted at GU campus in the month of April"
+    },
+
 ];
 
 // Helper: parse "YYYY-MM-DD" safely as local date
