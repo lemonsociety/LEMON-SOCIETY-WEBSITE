@@ -35,6 +35,13 @@ const eventsData = [
         location: "Gauhati University",
         description: "Different varieties of Citrus, including lemon, will be planted at GU campus in the month of April."
     },
+    {
+        title: "One day hands-on training on 'Lemon Cultivation and Tree Management'",
+        date: "2026-01-25",
+        location: "Chithila, Kokrajhar",
+        description: "Organizing one day hands-on training on 'Lemon Cultivation and Tree Management' at Cithila, Kokrajhar by Biotech Hub, Science College, Kokrajhar in collaboration with ‘Lemon Society, Assam, India."
+    },
+    
 
 ];
 
