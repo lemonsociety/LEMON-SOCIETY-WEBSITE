@@ -37,7 +37,7 @@ const eventsData = [
     },
     {
         title: "One day hands-on training on 'Lemon Cultivation and Tree Management'",
-        date: "2026-01-25",
+        date: "2026-01-26",
         location: "Chithila, Kokrajhar",
         description: "Organizing one day hands-on training on 'Lemon Cultivation and Tree Management' at Cithila, Kokrajhar by Biotech Hub, Science College, Kokrajhar in collaboration with ‘Lemon Society, Assam, India."
     },
