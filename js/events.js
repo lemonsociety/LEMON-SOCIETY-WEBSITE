@@ -41,7 +41,12 @@ const eventsData = [
         location: "Chithila, Kokrajhar",
         description: "Organizing one day hands-on training on 'Lemon Cultivation and Tree Management' at Cithila, Kokrajhar by Biotech Hub, Science College, Kokrajhar in collaboration with ‘Lemon Society, Assam, India."
     },
-    
+    {
+        title: "One day National Conference on 'Preserving and enhancing the culture and cultivation of Assam Lemon - Citrus limon (L.) Burm f.'",
+        date: "2026-03-21",
+        location: "Kokrajhar/Guwahati",
+        description: "One day National Conference on 'Preserving and enhancing the culture and cultivation of Assam Lemon - Citrus limon (L.) Burm f.' is going to be held at Kokrajhar/Guwahati."
+    }
 
 ];
 
