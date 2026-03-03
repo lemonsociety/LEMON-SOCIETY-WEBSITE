@@ -44,7 +44,7 @@ const eventsData = [
     {
         title: "One day National Conference on 'Preserving and enhancing the culture and cultivation of Assam Lemon - Citrus limon (L.) Burm f.'",
         date: "2026-03-22",
-        location: "Kokrajhar/Guwahati",
+        location: "Kokrajhar",
         description: "One day National Conference on 'Preserving and enhancing the culture and cultivation of Assam Lemon - Citrus limon (L.) Burm f.' is going to be held at Kokrajhar/Guwahati."
     }
 
