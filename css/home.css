@@ -1,4 +1,50 @@
 /* ===========================
+   Home Page – Conference Banner
+=========================== */
+
+#conference-banner {
+    max-width: 1000px;        /* match other sections */
+    margin: 0 auto;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    text-align: center;
+}
+
+#conference-banner a {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;          /* slightly wider */
+    
+    background-color: var(--accent);
+    color: #ffffff;
+    text-decoration: none;
+
+    padding: 20px 28px;        /* bigger box */
+    
+    border-radius: 25px;       /* squarish (was 40px) */
+
+    font-size: 1.25rem;        /* bigger text */
+    font-weight: 600;          /* makes it stand out */
+    line-height: 1.6;
+
+    box-shadow: var(--shadow);
+    transition: all 0.25s ease;
+}
+
+#conference-banner a:hover {
+    background-color: #276749;
+    transform: translateY(-3px);
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+    #conference-banner a {
+        width: 90%;
+        font-size: 0.95rem;
+        padding: 10px 14px;
+    }
+}
+
+/* ===========================
    Home Page – Gallery Section
 =========================== */
 

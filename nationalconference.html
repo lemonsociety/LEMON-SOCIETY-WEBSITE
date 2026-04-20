@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemon Society | National Conference</title>
+    <link rel="icon" type="image/png" href="resources/logo png.png">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nationalconference.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (same as home) -->
+<header>
+    <div class="header-left">
+        <h1>Lemon Society</h1>
+        <p>Assam, India</p>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <nav id="navMenu">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="events.html">EVENTS</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+
+<!-- MAIN CONTENT -->
+<section id="conference-page">
+
+    <!-- HEADING -->
+    <h2>
+        National Conference on Preserving and Enhancing the Culture and Cultivation of Assam Lemon - <i>Citrus limon</i> (L.) Burm f.
+    </h2>
+
+    <!-- LINKS -->
+    <div class="conference-links">
+        <a href="https://drive.google.com/file/d/1p7W-zQjQLTbeKTYq7nyUESwsYFDhkSei/view?usp=drivesdk" target="_blank">
+            National Conference Report
+        </a>
+
+        <a href="https://drive.google.com/file/d/1bvs4_MgJr9wrOdILuby9Ydi_6kFaQkL9/view?usp=sharing" target="_blank">
+            Video of Panel Discussion
+        </a>
+    </div>
+
+    <!-- BROCHURE IMAGES -->
+    <div class="brochure-container">
+        <img src="resources/Brochure 1.png" onclick="openModal(this.src)">
+        <img src="resources/Brochure 2.png" onclick="openModal(this.src)">
+    </div>
+
+</section>
+
+<script src="js/global.js"></script>
+
+<script>
+function openModal(src) {
+    document.getElementById("imageModal").style.display = "flex";
+    document.getElementById("modalImg").src = src;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+/* click outside to close */
+document.getElementById("imageModal").addEventListener("click", function(e) {
+    if (e.target.id === "imageModal") {
+        closeModal();
+    }
+});
+</script>
+
+<!-- IMAGE MODAL -->
+<div id="imageModal">
+    <span onclick="closeModal()">&times;</span>
+    <img id="modalImg">
+</div>
+
+</body>
+</html>
