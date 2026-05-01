@@ -6,8 +6,23 @@
 const galleryItems = [
 
     {
+        src: "resources/gu5.jpeg",
+        title: "Innauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
+    },
+
+    {
         src: "resources/gu1.jpeg",
         title: "Lemon Germplasm Repository, Gauhati University, Assam"
+    },
+
+    {
+        src: "resources/gu7.jpeg",
+        title: "Team members of Institutional Biotech Hub, SCK and Lemon Society, Assam, India"
+    },
+
+    {
+        src: "resources/gu6.jpeg",
+        title: "Dignitaries standing in front of Lemon Germplasm Repository, Gauhati University, Assam"
     },
 
     {
