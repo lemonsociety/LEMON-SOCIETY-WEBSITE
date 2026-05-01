@@ -7,7 +7,7 @@ const galleryItems = [
 
     {
         src: "resources/gu5.jpeg",
-        title: "Innauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
+        title: "Inauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
     },
 
     {
