@@ -6,6 +6,26 @@
 const galleryItems = [
 
     {
+        src: "resources/gu1.jpeg",
+        title: "Lemon Germplasm Repository, Gauhati University, Assam"
+    },
+
+    {
+        src: "resources/gu2.jpeg",
+        title: "Beginning of Lemon Germplasm Repository Development at GU, Assam"
+    },
+
+    {
+        src: "resources/gu3.jpeg",
+        title: "Plnatation Drive at Lemon Germplasm Repository, GU, Assam"
+    },
+
+    {
+        src: "resources/gu1.jpeg",
+        title: "Interaction Session at Lemon Germplasm Repository, GU, Assam"
+    },
+
+    {
         src: "resources/society logo.jpg",
         title: "Lemon Society"
     },
