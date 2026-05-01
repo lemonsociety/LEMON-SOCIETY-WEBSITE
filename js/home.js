@@ -21,7 +21,7 @@ const galleryItems = [
     },
 
     {
-        src: "resources/gu1.jpeg",
+        src: "resources/gu4.jpeg",
         title: "Interaction Session at Lemon Germplasm Repository, GU, Assam"
     },
 
