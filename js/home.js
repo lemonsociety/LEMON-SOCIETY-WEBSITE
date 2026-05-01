@@ -32,7 +32,7 @@ const galleryItems = [
 
     {
         src: "resources/gu3.jpeg",
-        title: "Plnatation Drive at Lemon Germplasm Repository, GU, Assam"
+        title: "Plantation Drive at Lemon Germplasm Repository, GU, Assam"
     },
 
     {
