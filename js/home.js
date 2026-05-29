@@ -6,6 +6,11 @@
 const galleryItems = [
 
     {
+        src: "resources/discussion with DC.jpeg",
+        title: "Discussion with Dr. P. Uday Praveen, District Commissioner, Kokrajhar, Assam on lemon issues and handed over lemon conference report"
+    },
+
+    {
         src: "resources/gu5.jpeg",
         title: "Inauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
     },
