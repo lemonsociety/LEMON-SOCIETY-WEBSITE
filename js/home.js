@@ -11,6 +11,11 @@ const galleryItems = [
     },
 
     {
+        src: "resources/New Report.jpeg",
+        title: "Published in Niyomiya Barta, dated 03-06-2026"
+    },
+
+    {
         src: "resources/gu5.jpeg",
         title: "Inauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
     },
