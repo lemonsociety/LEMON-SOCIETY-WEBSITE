@@ -16,6 +16,11 @@ const galleryItems = [
     },
 
     {
+        src: "resources/bu.jpeg",
+        title: "Lemon saplings have been donated to Bodoland University, produced in IBH, Science College, Kokrajhar under a research programme, dated 12-06-2026"
+    },
+
+    {
         src: "resources/gu5.jpeg",
         title: "Inauguration of Lemon Germplasm Repository by Prof. D. Sarma, Head, Dept. of Zoology, Gauhati University"
     },
