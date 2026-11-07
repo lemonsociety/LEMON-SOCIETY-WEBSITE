@@ -46,6 +46,12 @@ const eventsData = [
         date: "2026-03-22",
         location: "Kokrajhar",
         description: "One day National Conference on 'Preserving and enhancing the culture and cultivation of Assam Lemon - Citrus limon (L.) Burm f.' is going to be held at Kokrajhar/Guwahati."
+    },
+    {
+        title: "Third Executive Meeting Held",
+        date: "2026-11-05",
+        location: "Google Meet Online Platform",
+        description: "Discussion on the last year activities, Fund collection and expenditure incurred, Inclusion of new members and expansion, Fixation of future work plan."
     }
 
 ];
